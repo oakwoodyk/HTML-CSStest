@@ -1,0 +1,105 @@
+body {
+  max-width: 1000px;
+}
+
+h2{
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+.firstrange{
+  position: relative;
+}
+
+#catchcopy{
+  color:white;
+  top: calc(40%);
+  font-size: 40px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.firstview{
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+}
+
+.abstract{
+  text-align: center;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.blog_photo1,
+.blog_photo2,
+.blog_photo3{
+  width: 100%;
+}
+
+.blog1{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.blog3{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.article{
+  display: flex;
+  justify-content: center;
+}
+
+
+.keyinform{
+  margin-left: 30%;
+}
+
+label{
+  display: inline-block;
+  width: 400px;
+  align-items: left;
+  padding-bottom: 5px;
+}
+
+.name_blank,
+.select1{
+  margin-left: 100px;
+}
+
+.email_blank{
+  margin-left: 23px;
+}
+
+textarea{
+  margin-left: 105px;
+}
+
+.delete,
+.send{
+  padding: 5px 10px;
+  width: 200px;
+  margin: 3%;
+  border-color: white;
+}
+
+.delete{
+  background-color: rgb(219, 212, 212);
+}
+
+.send{
+  color: white;
+  background-color:rgba(23, 146, 129, 0.623);
+}
+
+#buttons{
+  display: flex;
+  justify-content: center;
+}
